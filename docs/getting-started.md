@@ -1,4 +1,4 @@
-Quick links: [Getting started](docs/getting-started.md) | [Swagger](docs/swagger/index.html)  |  [Postman](docs/postman.md)
+Quick links: [Getting started](getting-started.md) | [Swagger](swagger/index.html)  |  [Postman](postman.md)
 
 # Getting started
 text blah
