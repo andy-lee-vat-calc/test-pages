@@ -39,7 +39,7 @@ This is a uuid string which will be provided by us when you start to implement t
 
 ## Demo requests
 In the collection we have included the use-cases which match what our customers use; but there may be options
-available on the API which are not demonstrated in the collection, please check our [Swagger](docs/swagger/index.html) 
+available on the API which are not demonstrated in the collection, please check our [Swagger](../docs/swagger/index.html) 
 for all the available options.
 
 There is a logical order to these requests, by first doing an Auth, the Bearer token is automatically 
