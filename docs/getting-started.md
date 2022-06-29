@@ -30,6 +30,7 @@ We have provided these documents to help you implement to our API:
 ## FAQ
 <details><summary>Do I send to Production or Test?</summary>
 <p>
+<br />
 Both environments will function the same, however you will have a different set of credentials for 
 the two environments. 
 <br/>
@@ -47,6 +48,7 @@ Note: The Test environment may be running a new functionality pending deployment
 
 <details><summary>Does my API client need to Authenticate before each request?</summary>
 <p>
+<br />
 No, but you can. 
 <br />
 The Bearer token is valid for 24hrs; so depending on your integration process flow
@@ -64,6 +66,7 @@ It would be robust if your API client handled the 401 Unauthorized response, by 
 
 <details><summary>Asynchronous or Synchronous request handling?</summary>
 <p>
+<br />
 The API uses both depending on use-case; when there is a database write this is done via a message bus model. This 
 means that you can expect an immediate response once we have written the message to the bus.
 <br />
