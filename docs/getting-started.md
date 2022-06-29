@@ -33,7 +33,7 @@ We have provided these documents to help you implement to our API:
 <br />
 Both environments will function the same, however you will have a different set of credentials for 
 the two environments. 
-<br/>
+<br />
 If you want to make requests that are not saved, you can omit the `commit=true` parameter on the POST /transactions request.
 <br />
 <table>
@@ -49,11 +49,8 @@ Note: The Test environment may be running a new functionality pending deployment
 <details><summary>Does my API client need to Authenticate before each request?</summary>
 <p>
 <br />
-No, but you can. 
-<br />
-The Bearer token is valid for 24hrs; so depending on your integration process flow
-you may prefer to Authenticate each time you want to make a request. 
-<br/>
+No, but you can. The Bearer token is valid for 24hrs; so depending on your integration process flow you may prefer to Authenticate each time you want to make a request. 
+<br /><br />
 It would be robust if your API client handled the 401 Unauthorized response, by Authenticating again.
 <pre>
 {
@@ -69,7 +66,7 @@ It would be robust if your API client handled the 401 Unauthorized response, by 
 <br />
 The API uses both depending on use-case; when there is a database write this is done via a message bus model. This 
 means that you can expect an immediate response once we have written the message to the bus.
-<br />
+<br /><br />
 Your calling client you should handle 'eventual consistency'; meaning that if you post a new transaction and immediately try
 to fetch it, you may get a 404 Not Found; but a second later it will be found.
 </p>
