@@ -29,7 +29,7 @@ We have provided these documents to help you implement to our API:
 
 ## FAQ
 <details><summary>Do I send to Production or Test?</summary>
-
+<p>
 Both environments will function the same, however you will have a different set of credentials for 
 the two environments. 
 
@@ -41,11 +41,11 @@ If you want to make requests that are not saved, you can omit the `commit=true` 
 | Test       | https://test-api.taxagile.io  |
 
 **Note**: The Test environment may be running a new functionality pending deployment to Production!
-
+</p>
 </details>
 
 <details><summary>Does my API client need to Authenticate before each request?</summary>
-
+<p>
 No, but you can. 
 
 The Bearer token is valid for 24hrs; so depending on your integration process flow
@@ -59,15 +59,17 @@ It would be robust if your API client handled the 401 Unauthorized response, by 
 "message": "Unauthorized"
 }
 ```
+</p>
 </details>
 
 <details><summary>Asynchronous or Synchronous request handling?</summary>
-
+<p>
 The API uses both depending on use-case; when there is a database write this is done via a message bus model. This 
 means that you can expect an immediate response once we have written the message to the bus.
 
 Your calling client you should handle 'eventual consistency'; meaning that if you post a new transaction and immediately try
 to fetch it, you may get a 404 Not Found; but a second later it will be found.
+</p>
 </details>
 
 ## See also
