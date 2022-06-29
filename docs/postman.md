@@ -3,9 +3,9 @@ th{ background-color: #343a98!important; color: #fff!important; }
 
 </style> 
 
-![Tax Agile Logo](Tax-Agile-Wide.png)
+![Tax Agile Logo](Tax-Agile-Short.png)
 
-Quick links: [Getting started](getting-started.md) | [Swagger](../docs/swagger/index.html)  |  [Postman](postman.md)
+[Getting started](getting-started.md) | [Swagger](../docs/swagger/index.html)  |  [Postman](postman.md)
 
 # Postman sample collection
 The Postman collection is available to help you get started integrating to the Tax Agile API; and is published with
