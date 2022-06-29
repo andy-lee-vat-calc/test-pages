@@ -23,10 +23,10 @@ duplicate the sample collection and modify the requests to meet your implementat
 This is the server hosting the API you want to make requests to, possible values are:
 
 
-|  Server    | API_ROOT                      |
+| Server     | API_ROOT                      |
 |:-----------|:------------------------------|
 | Production | https://api.taxagile.io       |
-| Staging    | https://test-api.taxagile.io  |
+| Test       | https://test-api.taxagile.io  |
 
 
 ### ACCOUNT_ID

@@ -29,3 +29,8 @@ In this version of the API you have methods to authenticate and invoke the VAT D
   * Paginated results
   * Filter parameters on entry date/time range, document number & VAT code
   * This can be used to collect data from Tax Agile and store in your data warehouse
+
+# Need help?
+If you have any problems, reach out to us: 
+* Contact Us [https://www.vatcalc.com/contact/](https://www.vatcalc.com/contact/)
+* Create an Issue [https://github.com/taxagile/developer-hub/issues](https://github.com/taxagile/developer-hub/issues)
