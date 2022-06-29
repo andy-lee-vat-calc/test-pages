@@ -576,7 +576,7 @@
         "type": "object"
       },
       "determinationVatRequestBody": {
-        "$ref": "../schemas/vatDeterminationRequestBodySchema.json"
+        "$ref": "./schemas/vatDeterminationRequestBodySchema.json"
       },
       "errorResponse": {
         "description": "Standardised error response returned with a code and message",
