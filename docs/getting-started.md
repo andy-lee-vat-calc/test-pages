@@ -32,15 +32,22 @@ We have provided these documents to help you implement to our API:
 <p>
 Both environments will function the same, however you will have a different set of credentials for 
 the two environments. 
-
+<br/>
 If you want to make requests that are not saved, you can omit the `commit=true` parameter on the POST /transactions request.
+<br />
+<table>
+<th><td>Server</td><td>API_ROOT</td></th>
+<tr><td>Production</td><td>https://api.taxagile.io </td></tr>
+<tr><td>Test</td><td>https://test-api.taxagile.io </td></tr>
+</table>
+<br />
 
 | Server     | API_ROOT                      |
 |:-----------|:------------------------------|
 | Production | https://api.taxagile.io       |
 | Test       | https://test-api.taxagile.io  |
 
-**Note**: The Test environment may be running a new functionality pending deployment to Production!
+Note: The Test environment may be running a new functionality pending deployment to Production!
 </p>
 </details>
 
