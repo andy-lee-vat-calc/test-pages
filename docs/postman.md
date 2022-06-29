@@ -2,7 +2,7 @@
 th{ background-color: #343a98!important; color: #fff!important; } 
 </style> 
 
-![alt](Tax-Agile-Trim.png "title")
+![Tax Agile Logo](Tax-Agile-Wide.png)
 
 Quick links: [Getting started](getting-started.md) | [Swagger](../docs/swagger/index.html)  |  [Postman](postman.md)
 
