@@ -18,22 +18,14 @@ The Hub is hosted on GitHub and you can report issues to us using the GitHub Iss
 
 In this version of the API you have methods to authenticate and invoke the VAT Determination API.
 
-```mermaid
-    flowchart TD;
-        A[deploy] --> B(foo);
-     
-```
-
-
-```mermaid
-sequenceDiagram
-    participant dotcom
-    participant iframe
-    participant viewscreen
-    dotcom->>iframe: loads html w/ iframe url
-    iframe->>viewscreen: request template
-    viewscreen->>iframe: html & javascript
-    iframe->>dotcom: iframe ready
-    dotcom->>iframe: set mermaid data on iframe
-    iframe->>iframe: render mermaid
-```
+* API key authentication
+  * Credential pair of API key and Account id are used to create a Bearer token
+  * The token is valid for 24hrs and is used as the Authentication on subsequent requests
+* Send a transaction for VAT Determination
+  * Receiving back context rich error messaging if your transaction is missing a field required for the determination to complete
+  * Returns an analysis for the transaction
+  * Allows for the transaction to be sent and not saved, or sent with a commit flag
+* Get a list of transactions saved
+  * Paginated results
+  * Filter parameters on entry date/time range, document number & VAT code
+  * This can be used to collect data from Tax Agile and store in your data warehouse
