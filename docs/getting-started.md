@@ -36,17 +36,11 @@ the two environments.
 If you want to make requests that are not saved, you can omit the `commit=true` parameter on the POST /transactions request.
 <br />
 <table>
-<th><td>Server</td><td>API_ROOT</td></th>
+<th>Server</th><th>API_ROOT</th>
 <tr><td>Production</td><td>https://api.taxagile.io </td></tr>
 <tr><td>Test</td><td>https://test-api.taxagile.io </td></tr>
 </table>
 <br />
-
-| Server     | API_ROOT                      |
-|:-----------|:------------------------------|
-| Production | https://api.taxagile.io       |
-| Test       | https://test-api.taxagile.io  |
-
 Note: The Test environment may be running a new functionality pending deployment to Production!
 </p>
 </details>
