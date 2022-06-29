@@ -1,3 +1,5 @@
+![Tax Agile Logo](Tax-Agile-Wide.png)
+
 Quick links: [Getting started](getting-started.md) | [Swagger](swagger/index.html)  |  [Postman](postman.md)
 
 # Getting started
