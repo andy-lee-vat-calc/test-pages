@@ -48,18 +48,17 @@ Note: The Test environment may be running a new functionality pending deployment
 <details><summary>Does my API client need to Authenticate before each request?</summary>
 <p>
 No, but you can. 
-
+<br />
 The Bearer token is valid for 24hrs; so depending on your integration process flow
 you may prefer to Authenticate each time you want to make a request. 
-
+<br/>
 It would be robust if your API client handled the 401 Unauthorized response, by Authenticating again.
-
-```json
+<pre>
 {
 "errorCode": "AU001",
 "message": "Unauthorized"
 }
-```
+</pre>
 </p>
 </details>
 
@@ -67,7 +66,7 @@ It would be robust if your API client handled the 401 Unauthorized response, by 
 <p>
 The API uses both depending on use-case; when there is a database write this is done via a message bus model. This 
 means that you can expect an immediate response once we have written the message to the bus.
-
+<br />
 Your calling client you should handle 'eventual consistency'; meaning that if you post a new transaction and immediately try
 to fetch it, you may get a 404 Not Found; but a second later it will be found.
 </p>
