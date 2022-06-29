@@ -1,4 +1,4 @@
-![Tax Agile Logo](Tax-Agile-Wide.png)
+![Tax Agile Logo](docs/Tax-Agile-Wide.png)
 
 Quick links: [Getting started](docs/getting-started.md) | [Swagger](docs/swagger/index.html)  |  [Postman](docs/postman.md) 
 
