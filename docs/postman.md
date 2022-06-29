@@ -1,3 +1,7 @@
+<style>
+th{ background-color: #343a98!important; color: #fff!important; } 
+</style> 
+
 Quick links: [Getting started](getting-started.md) | [Swagger](../docs/swagger/index.html)  |  [Postman](postman.md)
 
 # Postman sample collection
@@ -16,7 +20,8 @@ duplicate the sample collection and modify the requests to meet your implementat
 ### API_ROOT
 This is the server hosting the API you want to make requests to, possible values are:
 
-| Server     | API_ROOT                      |
+
+|  Server    | API_ROOT                      |
 |:-----------|:------------------------------|
 | Production | https://api.taxagile.io       |
 | Staging    | https://test-api.taxagile.io  |
